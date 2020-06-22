@@ -1,2 +1,2 @@
 # SolarSystem
-Solar System
+Solar System Simulator
