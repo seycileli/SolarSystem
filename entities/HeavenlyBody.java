@@ -30,7 +30,8 @@ public abstract class HeavenlyBody {
         DWARF_PLANET,
         MOON,
         COMET,
-        ASTEROID
+        ASTEROID,
+        HYPOTHETICAL,
     }
 
     public HeavenlyBody(String name, double orbitalPeriod, BodyTypes bodyType) {
@@ -82,7 +83,8 @@ public abstract class HeavenlyBody {
 
     @Override
     public String toString() {
-        return "\n| ----------------------- | \n" +
+        return "\n" +
+                "| ----------------------- | \n" +
                 "|  Planetary Information  |\n" +
                 "| ----------------------- |" +
                 "\n|  Name: " + getName() +
