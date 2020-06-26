@@ -89,7 +89,7 @@ public abstract class HeavenlyBody {
                 "| ----------------------- |" +
                 "\n|  Name: " + getName() +
                 "\n|  Type: " + getBodyType() +
-                "\n|  Orbital Period: " + getOrbitalPeriod() + " days in Earth years \n" +
-                "---------------------------------------";
+                "\n|  Orbital Period: " + getOrbitalPeriod() + " days in Earth years" +
+                "\n---------------------------------------";
     }
 }
