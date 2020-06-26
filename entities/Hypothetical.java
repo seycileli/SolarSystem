@@ -45,7 +45,7 @@ public class Hypothetical extends HeavenlyBody {
                 "\n | smaller objects in the Kuiper Belt, a distant region of icy debris that extends far " +
                 "\n | beyond the orbit of Neptune. Astronomers are now searching for the predicted planet.");
 
-        System.out.println("\nThere are no known moons for Planet X at this moment.");
+        System.out.println("\nThere are no known moon(s) for Planet X at this moment.");
 
         System.out.println(
                 "\n ~ More info regarding " + bodyTypeHypothetical.get("Planet X").getName() + ":" +
